@@ -1,3 +1,47 @@
 body{
+	text-decoration: Helvetica, sans-serif;
+	background-image: url=("pattern.png");
+	
+	}
+header{
+	spacing: 9px;
+	linear-gradient:(bottom, #95484b, #af595c,#6f3032);
+}		
+#wrapper{
+	width: 77%;
+	background-color: whitesmoke;
+	align: center;
+	border-spacing: 3%;
+	padding-top: 33px;
+	padding-bottom: 33px;
+}
+#frame{
+	height: 470px;
+	align-image: center;
+}
+.photo{
+	height: 100%;
+	width: 100%;
+	background-image: url=("cohort.png");
+}
+.legend{
+	color: #95484b;
+	text-align: center;
+	font-style: bold;
+	background-color: white;
+	width: auto;
+}
+.logo{
+	height: 11%;
+	spacing: 30px;
 
+nav{
+	padding-top: -15px;
+	font-size: 30%;
+	text-align: center;
+}
+footer{
+	top-spacing: 1em;
+	bottom-spacing: 1em;
+	text-align: center;
 }
